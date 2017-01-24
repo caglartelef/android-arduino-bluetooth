@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_btsettings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="fikirlaboratuvari.com.arduinobluetooth.btsettings">
+
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Bluetooth"
+        android:textColor="#f77f0202"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_enable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="#f03b59f3"
+        android:text="Açık"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_view_paired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="#f7efa646"
+        android:enabled="false"
+        android:text="Eşleşmiş Cihazlar"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="#1c9501"
+        android:enabled="false"
+        android:text="Tara"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>
